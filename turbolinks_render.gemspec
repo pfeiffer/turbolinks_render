@@ -3,7 +3,7 @@ $LOAD_PATH.push File.expand_path('lib', __dir__)
 # Maintain your gem's version:
 require 'turbolinks_render/version'
 
-rails_version = ENV['RAILS_VERSION'] || '5.2.0'
+rails_version = ENV['RAILS_VERSION'] || '5.1.0'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
